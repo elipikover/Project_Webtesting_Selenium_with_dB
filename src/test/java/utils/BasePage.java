@@ -1,5 +1,6 @@
 package utils;
 
+import reports.Report;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import org.openqa.selenium.*;
 

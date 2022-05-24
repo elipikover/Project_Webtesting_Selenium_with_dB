@@ -3,4 +3,5 @@
     <browserTypeMain>webdriver.chrome.driver</browserTypeMain>
     <browserType>webdriver.gecko.driver</browserType>
     <URL>https://buyme.co.il/</URL>
+    <Connection>"jdbc:mysql://remotemysql.com:3306DThNM7IcIykSmOKvr0Ev</Connection>
 </config>

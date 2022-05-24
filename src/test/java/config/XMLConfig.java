@@ -1,4 +1,4 @@
-package utils;
+package config;
 
 import org.w3c.dom.Document;
 
@@ -35,6 +35,15 @@ public class XMLConfig {
 
     }
 
+    public static String getConnection() throws Exception{
+        File fXmlFile = new File("/Users/epikover/IdeaProjects/Java/QA_Experts/Project_WebTesting_Selenium/src/main/resources/data.xml");
+        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+        Document doc = dBuilder.parse(fXmlFile);
+        doc.getDocumentElement().normalize();
+        return doc.getElementsByTagName("Connection").item(0).getTextContent();
+
+    }
 }
 
 

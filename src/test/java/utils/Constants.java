@@ -15,4 +15,10 @@ public class Constants {
     public static String GIFTSEARCHURL = "https://buyme.co.il/search?budget=5&category=22&region=13";
     public static String SAMPLE_FILE = "/Users/epikover/IdeaProjects/Java/QA_Experts/Project_WebTesting_Selenium/picName1.png";
 
+    public static final String USER_NAME = "DThNM7IcIy";
+    public static final String DATABASE_NAME = "DThNM7IcIy";
+    public static final String PASSWORD = "kSmOKvr0Ev";
+    public static final String PORT = "3306";
+    public static final String SERVER = "remotemysql.com";
 }
+
